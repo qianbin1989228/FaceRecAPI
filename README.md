@@ -1,6 +1,5 @@
 @[TOC](目录)
 # 一、概述
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/99209a55638c4f9ab91f080f8d0e7a9e.png#pic_center =300x)
 在当今的AI浪潮中，人脸识别技术已渗透到我们生活的方方面面。构建一个高效、可扩展的人脸识别服务是许多开发者和企业的需求。传统的Django框架虽然功能强大，但对于追求极致性能和现代API开发的场景，[**FastAPI**](https://fastapi.tiangolo.com/) 无疑是更优的选择。
 
 **为什么选择 FastAPI？**
@@ -648,11 +647,6 @@ async function handleRecognizeFace(event) {
 *   **右侧**，可以上传新人物的照片和姓名，点击“确认添加”后，人物卡片会立即出现在下方的列表中。
 *   **左侧**，可以上传任意一张包含人脸的图片，点击“开始识别”，系统会与右侧的人物库进行比对，并在下方卡片中实时显示出最相似的人物及其相似度。
 
-**人物添加功能如下**：
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/5f3d8011c9ea402fae4ea8262c818f57.jpeg#pic_center =800x)
-**人物识别功能如下**：
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/d445fb50486446279cbfbc3634fae5cb.jpeg#pic_center =800x)
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/399923c957b04753bb210c2b229fdd27.jpeg#pic_center =800x)
 通过以上步骤，不仅构建了强大的后端API，还为其配备了一个现代、简洁且用户友好的前端界面，真正实现了一个从前端到后端的全栈人脸识别项目。
 
 ---
@@ -672,5 +666,3 @@ async function handleRecognizeFace(event) {
 本项目不仅是一个功能完备的 Demo，更是一个可以轻松扩展和优化的起点。希望它能为读者在探索 AI 应用开发的道路上提供有力的帮助。
 
 FastAPI和深度学习项目学习交流群（qq）：820106877
-
-**本项目完整代码链接**：[https://github.com/your-username/FaceRecAPI-Project](https://github.com/your-username/FaceRecAPI-Project)
